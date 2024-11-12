@@ -1,0 +1,5 @@
+For 2D graphics in C++, there are several libraries you can use. Here are a few popular options:
+
+    SFML (Simple and Fast Multimedia Library): A great choice for beginners, SFML is easy to use and provides a simple interface for graphics, audio, and input handling.
+    SDL (Simple DirectMedia Layer): Another popular library for handling graphics and input, SDL is widely used in game development.
+    Allegro: A library that provides functions for graphics, sound, and input, suitable for 2D game
