@@ -38,6 +38,14 @@ int main() {
                 isOnGround = true; // Ball is on the ground
                 velocityY = 0; // Reset velocity
             }
+        } else {
+            // Allow the ball to bounce back if it is on the ground
+            if (velocityY == 0) {
+                // Reset the ball's position slightly above the floor to allow it to fall again
+                ball.setPosition(ball.getPosition().x, floor.getPosition().y - ball.getRadius() * 2);
+                velocityY = -10.0f; // Give it an initial upward velocity to simulate a bounce
+                isOnGround = false; // Allow it to fall again
+            }
         }
 
         // Clear the window
