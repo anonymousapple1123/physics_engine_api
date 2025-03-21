@@ -1,0 +1,9 @@
+Euler integration method for solving differential equations
+
+In mathematics there are several types of ordinary differential equations (ODE), like linear, 
+separable, or exact differential equations, which are solved analytically, giving an exact solution.
+This means that there is a specific method to be applied in order to extract a general exact solution.
+
+In practice, most of the differential equation do not have a standard form and can not be solved with
+analytic methods, which means we can not find a general solution y(x). This is the case for most of the
+differential equations derived from physical models (mechanical, electrical, thermal, etc.).
