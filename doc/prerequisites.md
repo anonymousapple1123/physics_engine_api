@@ -10,7 +10,7 @@ These are non-negotiable. You need to be solid on these before starting.
     Const-correctness and Access Specifiers (public, private)
     Header Files and Source Files (.h and .cpp separation)
     Compilation Process & Linking
-    
+
 2. Basic Mathematics (Linear Algebra & Physics)
     Vectors (2D / 3D)
     Vector addition, subtraction, scalar multiplication
@@ -87,7 +87,8 @@ Once you have the basics down, you'll want to explore these topics to make your 
     Slider/Prismatic Joints
     Constraint Solvers
     Iterative Solvers (Gauss-Seidel, Sequential Impulse)
-    🔵 Optional / Bonus Concepts (For Full-Fledged Engines)
+    
+🔵 Optional / Bonus Concepts (For Full-Fledged Engines)
     If you want to make something production-grade or game-ready, these concepts become relevant.
 
 10. Optimization Techniques

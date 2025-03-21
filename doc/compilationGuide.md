@@ -1,7 +1,6 @@
 ## How to compile files 
 
 
-
 *The compiled files are in directory objectFiles*
 
 >### Prerequisites of system
@@ -21,12 +20,12 @@
 *This is for debian operating systems and may not be up-to-date.*
 
 ```bash
-g++ -c Circle.cpp
-g++ -c RigidBody.cpp
-g++ -c PhysicsEngine.cpp
-g++ -c main.cpp
+g++ -Iinclude -c .\src\RigidBody.cpp -o objectFiles/RigidBody.o
+g++ -Iinclude -c .\src\Vector2.cpp -o objectFiles/Vector2.o
+g++ -Iinclude -c .\src\PhysicsEngine.cpp -o objectFiles/PhysicsEngine.o
+g++ -Iinclude -c main.cpp -o objectFiles/main.o
 ```
 
 ```bash
-g++ -o engine  Circle.o RigidBody.o  PhysicsEngine.o main.o
+g++ -Iinclude -o engine  objectFiles/Vector2.o objectFiles/RigidBody.o  objectFiles/PhysicsEngine.o objectFiles/main.o
 ```
